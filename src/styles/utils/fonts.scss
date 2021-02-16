@@ -1,0 +1,5 @@
+// Файл для подключения нестандартных шрифтов
+@import '../mixins/font';
+
+@include font-family('Poppins', 'Poppins-Bold', 700, normal);
+@include font-family('Poppins', 'Poppins-Medium', 500, normal);

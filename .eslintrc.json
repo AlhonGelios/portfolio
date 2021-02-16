@@ -1,0 +1,16 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "overrides": [{
+    "files": [ "src/**/*.js" ],
+    "extends": ["standard", "airbnb"],
+
+    "rules": {
+      "indent": ["error", 4],
+      "no-console": "warn",
+      "no-tabs": "off",
+      "quotes": ["error", "double"]
+  }}]
+}
