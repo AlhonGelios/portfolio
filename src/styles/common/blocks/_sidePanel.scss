@@ -1,0 +1,26 @@
+.sidePanel {
+    position: fixed;
+    top: 400px;
+    left: -120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 340px;
+    z-index: 50;
+    transform: rotate(-90deg);
+
+    &__devider {
+        width: 70px;
+        height: 2px;
+        background-color: #000;
+    }
+
+    &__link {
+        height: 20px;
+        width: 20px;
+    }
+
+    &__text {
+        font-weight: 700;
+    }
+}

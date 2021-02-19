@@ -1,5 +1,11 @@
-@import "common/global";
+@import './common/global';
 
-@import "common/header";
+@import './common/blocks/sidePanel';
 
-@import "common/footer";
+@import './common/blocks/title';
+
+@import './common/blocks/btns';
+
+@import './common/blocks/promo';
+
+@import './common/blocks/menu';

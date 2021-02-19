@@ -1,6 +1,8 @@
-extends common/layout
+extends layout/homepage
 
 block content
-    include ./includes/mixins/svg.pug
-    +svg('html5')
-    +svg('Jquery')
+    include mixins/svg
+    include includes/index/sidePanel
+    include includes/index/menu
+    section.promo 
+            include includes/index/promo

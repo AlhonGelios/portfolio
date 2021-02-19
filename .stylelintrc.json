@@ -20,15 +20,22 @@
     "at-rule-semicolon-newline-after": "always",
     "at-rule-semicolon-space-before": "never",
     "selector-max-class": 2,
+    "color-hex-length":"short",
+    "string-quotes": "single",
+    "declaration-colon-newline-after": "always-multi-line",
     "unit-whitelist": [
       "em",
       "rem",
       "%",
       "px",
       "vh",
+      "vw",
       "vm",
       "vmax",
-      "vmin"
+      "vmin",
+      "deg",
+      "fr",
+      "s"
     ]
   }
 }
