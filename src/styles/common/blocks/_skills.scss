@@ -61,4 +61,46 @@
             line-height: 18px;
         }
     }
+
+    &__wrapper-ratio {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, auto);
+        column-gap: 45px;
+        row-gap: 38px;
+        padding-top: 130px;
+    }
+}
+
+.ratio {
+    &__head {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__head-title {
+        position: relative;
+        padding-left: 15px;
+        z-index: 0;
+
+        @include before_circle;
+
+        &::before {
+            top: -8px;
+        }
+    }
+
+    &__progressbar {
+        width: 100%;
+        height: 14px;
+        background-color: #e8e4de;
+        border-radius: 4px;
+        margin-top: 27px;
+
+        &-progress {
+            height: 100%;
+            width: 85%;
+            background-color: $mainColor;
+        }
+    }
 }
