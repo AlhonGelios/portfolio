@@ -12,6 +12,7 @@
       "no-console": "warn",
       "no-tabs": "off",
       "quotes": ["error", "single"],
-      "padded-blocks": ["error", "never"]
+      "padded-blocks": ["error", "never"],
+      "no-param-reassign":  ["error", { "props": false }]// ??????
   }}]
 }
