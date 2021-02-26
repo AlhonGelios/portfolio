@@ -1,0 +1,23 @@
+.container 
+    .contacts__wrapper 
+        .contacts__photo: img(src="img/Photo.jpg", alt="Photo me")
+        .contacts__informations 
+            h2.title.title_fz16.contacts__subtitle Контакты
+            .title.contacts__title Свяжитесь со мной
+            p.contacts__text Любым удобным для вас способом:
+            .contacts__ref-icons
+                a(href="#"): +svg('Facebook') 
+                a(href="#"): +svg('Telegram') 
+                a(href="#"): +svg('Instagram') 
+            p.contacts__text Или оставьте ваши данные и я сама вам напишу:
+            form(name="contacts").contacts__form
+                .input
+                    input(type="text" name="name" id="name")
+                    label(for="name") Ваше имя
+                .input
+                    input(type="text" name="email" id="email")
+                    label(for="email") Ваша почта
+                .textarea
+                    textarea(name="textarea" id="textarea")
+                    label(for="textarea") Ваше сообщение
+                .wrapper-btn: button.btn.contacts__btn Отправить сообщение
