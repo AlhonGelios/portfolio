@@ -12,12 +12,17 @@
             p.contacts__text Или оставьте ваши данные и я сама вам напишу:
             form(name="contacts").contacts__form
                 .input
-                    input(type="text" name="name" id="name")
-                    label(for="name") Ваше имя
+                    input(required type="text" name="name" id="name").input-text
+                    label(for="name").label-text Ваше имя
                 .input
-                    input(type="text" name="email" id="email")
-                    label(for="email") Ваша почта
+                    input(required type="text" name="email" id="email").input-text
+                    label(for="email").label-text Ваша почта
                 .textarea
                     textarea(name="textarea" id="textarea")
-                    label(for="textarea") Ваше сообщение
-                .wrapper-btn: button.btn.contacts__btn Отправить сообщение
+                    label(for="textarea").label-text Ваше сообщение
+                .wrapper-send
+                    button.btn.contacts__btn Отправить сообщение
+                    .wrapper-checkbox
+                        input(required type="checkbox" name="privaci" id="privaci").input-checkbox
+                        label(for="privaci").label-checkbox Я согласен(а) с 
+                            a(href="privaci.html").police политикой конфидициальности

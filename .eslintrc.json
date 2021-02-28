@@ -13,6 +13,6 @@
       "no-tabs": "off",
       "quotes": ["error", "single"],
       "padded-blocks": ["error", "never"],
-      "no-param-reassign":  ["error", { "props": false }]// ??????
+      "no-param-reassign":  ["error", { "props": false }]
   }}]
 }

@@ -23,6 +23,8 @@
     "color-hex-length":"short",
     "string-quotes": "single",
     "declaration-colon-newline-after": "always-multi-line",
+    "selector-list-comma-space-before": "never",
+    "selector-list-comma-newline-after": "always-multi-line",
     "unit-whitelist": [
       "em",
       "rem",
