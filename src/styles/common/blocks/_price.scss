@@ -14,6 +14,7 @@
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(3, auto);
+        grid-auto-rows: auto;
         column-gap: 300px;
         row-gap: 15px;
         margin-top: 90px;
@@ -26,7 +27,7 @@
         grid-template-columns: repeat(2, auto);
         grid-template-rows: repeat(2, auto);
         justify-content: space-between;
-        align-content: space-between;
+        //align-content: space-between;
         row-gap: 5px;
 
         &-title {
